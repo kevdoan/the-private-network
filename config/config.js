@@ -20,10 +20,10 @@ module.exports = {
     logging: false
   },
   production: {
-    username: process.env.MYSQL_USER,
-    password: process.env.MYSQL_PASS,
-    database: process.env.DATABASE,
-    host: process.env.HOST,
+    username: 'jddw9ybce2qo5e0l',
+    password: 'tuuy757xs726njlp',
+    database: 'etg1x0hn8pefs58z',
+    host: 'b4e9xxkxnpu2v96i.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
     port: 3306,
     dialect: 'mysql',
     logging: false

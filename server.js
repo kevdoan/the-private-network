@@ -123,7 +123,7 @@ app.use((err, req, res, next) => {
 const db = require('./models');
 const PORT = process.env.PORT || 3001;
 
-db.sequelize.sync({ force: true }) // all env variables are strings, so bools must be parsed
+db.sequelize.sync({ force: JSON.parse(process.env.RESET_DB) }) // all env variables are strings, so bools must be parsed
   .then(function () {
     require('./data/seeds')(db); // run seeds
 
