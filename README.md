@@ -19,7 +19,7 @@ To create a safe, private social network under the control of the network’s cr
 
 ## *Link to App:*
 
-https://ssorpg-theprivatenetwork.herokuapp.com
+https://theprivatenetwork.herokuapp.com/
 
 ## *Installation Instructions:*
 Incase you want to run this app locally:
